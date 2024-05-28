@@ -13,7 +13,9 @@ class Vegetable {
 
     public function isEdible()
     {
+        
         return $this->edible;
+        
     }
 
     public function getColor()
@@ -22,26 +24,38 @@ class Vegetable {
     }
 }
 
-class Spinach extends Vegetable {
-    public $cooked = false;
 
-    public function __construct()
-    {
-        parent::__construct(true, "green");
-    }
+$carrotte = new Vegetable(true,"cgcfgfcx");
+echo($carrotte->isEdible() ? "oui" : "non" );
+echo($carrotte->getColor());
 
-    public function cook()
-    {
-        $this->cooked = true;
-    }
+$salade = new Vegetable(true,"vert pale");
+echo($salade->isEdible() ? "oui" : "non" );
+echo($salade->getColor());
 
-    public function isCooked()
-    {
-        return $this->cooked;
-    }
-}
 
-$Spinach = new Spinach();
-echo($Spinach->isCooked() ? "oui" : "non" );
+
+
+//class Spinach extends Vegetable {
+//    public $cooked = false;
+//
+//    public function __construct()
+//    {
+//        parent::__construct(true, "green");
+//    }
+//
+//    public function cook()
+//    {
+//        $this->cooked = true;
+//    }
+//
+//    public function isCooked()
+//    {
+//        return $this->cooked;
+//    }
+//}
+//$Spinach = new Spinach();
+//$Spinach->cook();
+//echo($Spinach->isCooked() ? "oui" : "non" );
 
 ?>
