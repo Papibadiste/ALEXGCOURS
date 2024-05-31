@@ -1,49 +1,67 @@
-.block-white{
-    background-color: white;
-    height: 200px;
-}
-.block-red{
-    background-color: red;
-    height: 200px;
-
-}
 .block-green{
     background-color: green;
-    height: 200px;
-
-}
-.block-brown{
-    background-color: brown;
-    height: 200px;
-
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 .block-blue{
     background-color: blue;
-    height: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 
 }
 .block-rose{
     background-color: rgb(222, 37, 185);
-    height: 200px;
+    height: 100px;
+    width: 100px;
 
 }
+.block-orange{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+
+}
+
+.block-red{
+    background-color: red;
+    height: 200px;
+    width: 460px;
+
+}
+
+.block-brown{
+    background-color: brown;
+    height: 200px;
+    width: 460px;
+
+}
+
+
 .block-black{
     background-color: black;
-    height: 200px;
-
+    height: 400px;
+    width: 400px;
+    display: flex; justify-content: flex-end;
 }
-.block-orang{
-    background-color: orange;
-    height: 200px;
 
+.block-white{
+    background-color: white;
+    height: 200px;
+    width: 200px;
 }
-.block-yello{
+
+.block-yellow{
     background-color: yellow;
-    height: 200px;
+    height: 400px;
+    width: 400px;
+    display: flex;
 
 }
 .block-grey{
     background-color: grey;
     height: 200px;
+    width: 200px;
 
 }
