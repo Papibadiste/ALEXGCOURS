@@ -1,13 +1,49 @@
-h2 {
-    color: aqua;
+.block-white{
+    background-color: white;
+    height: 200px;
 }
-
-.Alex{
-    color: blueviolet !important;
+.block-red{
+    background-color: red;
+    height: 200px;
 
 }
+.block-green{
+    background-color: green;
+    height: 200px;
 
-.Guigui{
-    color: blue;
-    font-size: 150px;
+}
+.block-brown{
+    background-color: brown;
+    height: 200px;
+
+}
+.block-blue{
+    background-color: blue;
+    height: 200px;
+
+}
+.block-rose{
+    background-color: rgb(222, 37, 185);
+    height: 200px;
+
+}
+.block-black{
+    background-color: black;
+    height: 200px;
+
+}
+.block-orang{
+    background-color: orange;
+    height: 200px;
+
+}
+.block-yello{
+    background-color: yellow;
+    height: 200px;
+
+}
+.block-grey{
+    background-color: grey;
+    height: 200px;
+
 }
