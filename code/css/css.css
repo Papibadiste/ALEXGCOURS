@@ -1,49 +1,174 @@
+.block-boots-white{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+}
+.block-boots-red{
+    background-color: red;
+    height: 200px;
+    width: 100%;
+
+}
+.block-boots-green{
+    background-color: green;
+    height: 400px;
+
+}
+.block-boots-brown{
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+
+}
+.block-boots-blue{
+    background-color: blue;
+    height: 400px;
+
+}
+.block-boots-rose{
+    background-color: rgb(222, 37, 185);
+    height: 100px;
+    width: 100%;
+
+}
+.block-boots-black{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+
+}
+.block-boots-orange{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+
+}
+.block-boots-yellow{
+    background-color: yellow;
+    height: 400px;
+    width: 100%;
+    
+
+}
+.block-boots-grey{
+    background-color: grey;
+    height: 200px;
+    width: 100%;
+
+}
+
+div{
+    padding: 10px;
+}
+
+.header{
+    background-color:beige ;
+}
+
+.navi{
+    background-color:turquoise ;
+}
+
+.section{
+    background-color: greenyellow;
+}
+
+.article{
+    background-color: red;
+}
+
+.p{
+    background-color: blueviolet;
+}
+
+.aside{
+    background-color: yellow;
+}
+
+.footer{
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .block-white{
     background-color: white;
-    height: 20px;
+    height: 200px;
+    width: 200px;
 }
 .block-red{
     background-color: red;
-    height: 20px;
+    height: 200px;
+    width: 460px;
 
 }
 .block-green{
     background-color: green;
-    height: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
 
 }
 .block-brown{
     background-color: brown;
-    height: 20px;
+    height: 200px;
+    width: 460px;
 
 }
 .block-blue{
     background-color: blue;
-    height: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 
 }
 .block-rose{
     background-color: rgb(222, 37, 185);
-    height: 20px;
+    height: 100px;
+    width: 100px;
 
 }
 .block-black{
     background-color: black;
-    height: 20px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end ;
 
 }
-.block-orang{
+.block-orange{
     background-color: orange;
-    height: 20px;
+    height: 100px;
+    width: 100px;
 
 }
-.block-yello{
+.block-yellow{
     background-color: yellow;
-    height: 20px;
+    height: 400px;
+    width: 400;
+    display: flex;
+    
 
 }
 .block-grey{
     background-color: grey;
-    height: 20px;
+    height: 200px;
+    width: 200px;
 
 }
